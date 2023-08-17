@@ -9,12 +9,13 @@
     <style>
         .destaque {color: blue}
         .mesclado {color: green}
+        .eu {color: orange}
     </style>
 
 </head>
 <body>
     <h1 class="destaque">Trabalhando com PHP</h1>
-    <p>Programador: Gabriela Gilioli</p>
+    <p class="eu">Programador: Gabriela Gilioli</p>
     <hr>
 
     <?php
