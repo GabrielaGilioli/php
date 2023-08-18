@@ -12,7 +12,7 @@
     <h2><span>(Tipo de dado)</span> Números</h2>
 
      <?php
-     echo 8*6;
+     echo 9*5;
      echo " | Exemplo de multiplicação"
     
     ?>
@@ -21,8 +21,8 @@
 
      <?php
 
-     $exemplo = 15; //verdadeiro
-     $exemplo2 = 15.1; //falso
+     $exemplo = 20; //verdadeiro
+     $exemplo2 = 20.1; //falso
 
      if(is_int($exemplo)) {
         echo "É um inteiro <br>";
