@@ -71,6 +71,17 @@
     </ul>
 
     <!-- Criar aqui seu programa PHP -->
+
+    <?php
+
+    $a = 5;
+    if($a>1) {
+        echo "A variavel tem valor maior que 1."; 
+    }
+
+    if($a>1) echo "A variavel tem valor maior que 1.";
+
+    ?>
     
     
     <hr>
@@ -121,7 +132,19 @@
     <hr>
 
     <!-- Criar aqui seu programa PHP -->
+    
+    <h3>Ultrabook ASUS</h3>
+        <?php
 
+        $a = 0;
+
+        if ($a < 14 ) {
+            echo '<mark>Urgente</mark>';
+            echo  '<p class="repor"> Necessário comprar </p>'; 
+        } else {
+            echo '<p class="ok"> Fica tranquilo, estoque OK!</p>';
+        }
+        ?>
     
     <hr>
 
@@ -168,6 +191,10 @@
     <hr>
     
     <!-- Criar aqui seu programa PHP -->
+    Lista de opções
+    1 - Pastel
+    2 - Pizza
+    3 - Esfiha
     
     <hr>
 
